@@ -1,0 +1,152 @@
+* {
+  font-family: "Almarai", sans-serif !important;
+  text-align: right;
+
+}
+
+.navcontainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbrand{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.navbrand h3{
+    color: #ffb521;
+}
+
+.itemscontainer {
+  margin-top: 2em;
+}
+
+.navlogo {
+  overflow: hidden !important;
+  height: 90px;
+  width: 80px;
+  margin: 0 !important;
+}
+
+.navlogo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50% !important;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.navcoolapse {
+  justify-content: flex-end !important;
+}
+
+.navcoolapse ul {
+  display: flex;
+  gap: 1em;
+  margin: 0 !important;
+}
+
+.headercontainer {
+  margin-top: 3em;
+}
+
+.h1header{
+    text-align: center;
+    margin: 2em 1em;
+}
+
+.itemsrow {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.itemcard {
+  margin: 2em auto 0 auto !important;
+}
+
+.crd {
+  margin: 0 auto !important;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  gap: 0.5em;
+}
+
+.footer {
+  text-align: center;
+  padding: 1em;
+  margin-top: 5em;
+  font-family: "Almarai", sans-serif !important;
+}
+
+.instgram {
+  background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%
+    );
+  border: none;
+  font-family: "Almarai", sans-serif !important;
+  color: #fff;
+}
+
+/* slider css */
+#myCarousel {
+  width: 100%;
+  margin: auto;
+}
+
+.carousel-inner img {
+  width: 100%;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:10px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
